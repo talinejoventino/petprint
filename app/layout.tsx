@@ -16,9 +16,9 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PetPrint - Seu pet, seu estilo",
-  description: "Transforme seu pet em arte impressa. Camisas e canecas personalizadas com IA.",
-  keywords: ["pet", "personalização", "camisa", "caneca", "IA", "design"],
+  title: "PetPrint - Your pet, your style",
+  description: "Turn your pet into printed art. Custom t-shirts and mugs powered by AI.",
+  keywords: ["pet", "custom", "t-shirt", "mug", "AI", "design"],
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body className={`${outfit.variable} ${spaceMono.variable} font-sans antialiased`}>
         {children}
       </body>

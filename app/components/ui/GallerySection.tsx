@@ -14,7 +14,7 @@ export default function GallerySection() {
     <section id="galeria" className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-12">
-          <span className="text-gradient">Galeria</span> de inspiração
+          Inspiration <span className="text-gradient">Gallery</span>
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {galleryColors.map((color, i) => (

@@ -22,7 +22,7 @@ export default function ProductCard({
       <p className="text-text-secondary">{description}</p>
       <p className="text-2xl font-extrabold text-primary">{price}</p>
       <a href="#hero" className="btn-primary w-full text-center">
-        Personalizar
+        Customize
       </a>
     </div>
   );

@@ -3,9 +3,9 @@
 import Logo from "@/app/components/logo/Logo";
 
 const navLinks = [
-  { label: "Produtos", href: "#produtos" },
-  { label: "Como funciona", href: "#como-funciona" },
-  { label: "Galeria", href: "#galeria" },
+  { label: "Products", href: "#produtos" },
+  { label: "How it works", href: "#como-funciona" },
+  { label: "Gallery", href: "#galeria" },
 ];
 
 export default function Header() {
@@ -27,7 +27,7 @@ export default function Header() {
         </nav>
 
         <a href="#hero" className="btn-primary text-sm px-4 py-2">
-          Criar agora
+          Create now
         </a>
       </div>
     </header>

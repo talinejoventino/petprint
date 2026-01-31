@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <Logo size="md" />
           <p className="mt-3 text-gray-400 text-sm">
-            Seu pet, seu estilo. Produtos únicos com arte gerada por IA.
+            Your pet, your style. Unique products with AI-generated art.
           </p>
         </div>
         <div>
@@ -16,28 +16,28 @@ export default function Footer() {
           <ul className="space-y-2 text-gray-400 text-sm">
             <li>
               <a href="#produtos" className="hover:text-white transition-colors">
-                Produtos
+                Products
               </a>
             </li>
             <li>
               <a href="#como-funciona" className="hover:text-white transition-colors">
-                Como funciona
+                How it works
               </a>
             </li>
             <li>
               <a href="#galeria" className="hover:text-white transition-colors">
-                Galeria
+                Gallery
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h4 className="font-bold mb-3">Contato</h4>
+          <h4 className="font-bold mb-3">Contact</h4>
           <p className="text-gray-400 text-sm">contato@petprint.com.br</p>
         </div>
       </div>
       <div className="max-w-5xl mx-auto mt-8 pt-8 border-t border-gray-700 text-center text-gray-500 text-sm">
-        Feito com <Heart size={14} className="inline text-primary" /> para
+        Made with <Heart size={14} className="inline text-primary" /> for
         pets &mdash; PetPrint &copy; {new Date().getFullYear()}
       </div>
     </footer>

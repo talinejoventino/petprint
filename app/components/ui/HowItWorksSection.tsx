@@ -3,18 +3,18 @@ import { Upload, Palette, Package } from "lucide-react";
 const steps = [
   {
     icon: Upload,
-    title: "Upload da foto",
-    description: "Envie a melhor foto do seu pet",
+    title: "Upload photo",
+    description: "Send the best photo of your pet",
   },
   {
     icon: Palette,
-    title: "Escolha o estilo",
-    description: "Selecione entre estilos artísticos gerados por IA",
+    title: "Choose a style",
+    description: "Select from AI-generated artistic styles",
   },
   {
     icon: Package,
-    title: "Receba em casa",
-    description: "Produto impresso com qualidade e entregue na sua porta",
+    title: "Get it delivered",
+    description: "Quality printed product delivered to your door",
   },
 ];
 
@@ -23,7 +23,7 @@ export default function HowItWorksSection() {
     <section id="como-funciona" className="py-20 px-4 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-16">
-          Como <span className="text-gradient">funciona</span>
+          How it <span className="text-gradient">works</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step, i) => (
