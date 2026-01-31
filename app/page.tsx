@@ -1,15 +1,21 @@
+import Header from "@/app/components/ui/Header";
+import HeroSection from "@/app/components/ui/HeroSection";
+import ProductsSection from "@/app/components/ui/ProductsSection";
+import HowItWorksSection from "@/app/components/ui/HowItWorksSection";
+import GallerySection from "@/app/components/ui/GallerySection";
+import Footer from "@/app/components/ui/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-5xl font-extrabold text-gradient">
-        PetPrint
-      </h1>
-      <p className="mt-4 text-xl text-text-secondary">
-        Seu pet, seu estilo.
-      </p>
-      <button className="btn-primary mt-8">
-        Comece agora
-      </button>
-    </main>
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <ProductsSection />
+        <HowItWorksSection />
+        <GallerySection />
+      </main>
+      <Footer />
+    </>
   );
 }
